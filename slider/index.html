@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Slider</title>
+    <style>
+        .slider-container {
+            width: 100%;
+            height: 100vh;
+            position: relative;
+            overflow: hidden;
+        }
+        .slider {
+            display: flex;
+            transition: transform 0.3s ease-in-out;
+        }
+        .slide {
+            min-width: 100%;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .slide img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .btn {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            background-color: rgba(0, 0, 0, 0.5);
+            color: white;
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+            z-index: 10;
+        }
+        .btn-left { left: 10px; }
+        .btn-right { right: 10px; }
+    </style>
+</head>
+<body>
+    <div class="slider-container">
+        <div class="slider">
+            <div class="slide"><img src="https://images.pexels.com/photos/18609055/pexels-photo-18609055.jpeg" alt="House with wires and blue sky"></div>
+            <div class="slide"><img src="https://images.pexels.com/photos/27263839/pexels-photo-27263839.jpeg" alt="Aerial view of a bridge over water"></div>
+            <div class="slide"><img src="https://images.pexels.com/photos/8408542/pexels-photo-8408542.jpeg" alt="Plant with green leaves in a glass vase"></div>
+        </div>
+        <button class="btn btn-left">&lt;</button>
+        <button class="btn btn-right">&gt;</button>
+    </div>
+    
+    <script>
+        const slider = document.querySelector('.slider');
+        const slides = document.querySelectorAll('.slide');
+        const btnLeft = document.querySelector('.btn-left');
+        const btnRight = document.querySelector('.btn-right');
+        let currentIndex = 0;
+
+        function updateSlider() {
+            slider.style.transform = `translateX(-${currentIndex * 100}%)`;
+        }
+
+        btnLeft.addEventListener('click', () => {
+            currentIndex = (currentIndex - 1 + slides.length) % slides.length;
+            updateSlider();
+        });
+
+        btnRight.addEventListener('click', () => {
+            currentIndex = (currentIndex + 1) % slides.length;
+            updateSlider();
+        });
+
+        Promise.all(Array.from(document.images).map(img => {
+            if (img.complete) return Promise.resolve(img.naturalHeight !== 0);
+            return new Promise(resolve => {
+                img.onload = img.onerror = () => resolve(img.naturalHeight !== 0);
+            });
+        })).then(() => {
+            updateSlider();
+        });
+    </script>
+</body>
+</html>

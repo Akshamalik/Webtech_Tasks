@@ -1,0 +1,268 @@
+#outer{
+width:1200px;
+height:1500px;
+//border:1px solid white;
+margin:0px auto;
+}
+body{
+background-color:green;
+}
+#nav{
+height:50px;
+width:1200px;
+background-color:white;
+border-radius:25px 25px 0px 0px;
+border:1px solid green;
+}
+#nav ul{
+list-style-type:none;
+}
+#nav ul li{
+display:inline;
+padding:17px;
+font-size:18px;
+margin-top:5px;
+margin-left:5px;
+}
+#nav ul li a{
+color:black;
+text-decoration:none;
+}
+#nav ul li a:hover{
+color:green;
+}
+#slider{
+width:1200px;
+height:250px;
+background-image:url(../images/sofa.png);
+background-size:cover;
+margin-top:5px;
+}
+#papa{
+height:900px;
+width:1200px;
+margin-top:5px;
+}
+#left{
+height:900px;
+width:800px;
+background-color:white;
+float:left;
+border:1px solid white;
+border-radius:0px 0px 0px 25px;
+}
+.left_one{
+width:785px;
+margin-left:10px;
+}
+#left_img{
+width:785px;
+height:300px;
+background-image:url(../images/girl.avif);
+background-size:cover;
+margin-left:10px;
+}
+#left_img2{
+width:785px;
+height:300px;
+background-image:url(../images/about.jpg);
+background-size:cover;
+margin-left:10px;
+}
+.left_two{
+width:785px;
+margin-left:10px;
+margin-top:5px;
+}
+.left_three{
+width:785px;
+margin-left:10px;
+margin-top:8px;
+}
+.left_three a{
+color:green;
+}
+#right{
+height:900px;
+width:396px;
+background-color:#E2EBDA;
+border:1px solid #E2EBDA;
+float:left;
+border-radius:0px 0px 25px 0px;
+}
+#right h2{
+margin-left:46px;
+}
+#nav2{
+height:260px;
+}
+#right ul{
+list-style-type:none;
+}
+#nav2 ul li{
+padding:10px;
+padding-left:5px;
+font-size:18px;
+}
+#nav3{
+height:600px;
+width:300px;
+}
+#nav3 ul li{
+padding:8px;
+}
+#footer{
+height:270px;
+width:1200px;
+border-radius:25px 25px 25px 25px;
+background-color:white;
+margin-top:20px;
+border:1px solid white;
+}
+.one{
+height:240px;
+width:378px;
+border:1px solid white;
+margin-top:15px;
+float:left;
+margin-left:15px;
+}
+.image_1{
+height:80px;
+width:373px;
+margin-top:8px;
+}
+#image_11{
+height:80px;
+width:90px;
+float:left;
+background-image:url(../images/4.jpg);
+background-size:cover;
+border:3px solid lightgrey;
+border-radius:5px;
+}
+#image_12{
+height:80px;
+width:90px;
+float:left;
+background-image:url(../images/5.jpg);
+background-size:cover;
+margin-left:5px;
+border:3px solid lightgrey;
+border-radius:5px;
+}
+#image_13{
+height:80px;
+width:90px;
+float:left;
+margin-left:5px;
+background-image:url(../images/6.jpg);
+background-size:cover;
+border:3px solid lightgrey;
+border-radius:5px;
+}
+
+#image_21{
+height:80px;
+width:90px;
+background-image:url(../images/1.jpg);
+background-size:cover;
+border:3px solid lightgrey;
+float:left;
+border-radius:5px;
+}
+#image_22{
+height:80px;
+width:90px;
+background-image:url(../images/2.jpg);
+background-size:cover;
+border:3px solid lightgrey;
+float:left;
+margin-left:5px;
+border-radius:5px;
+}
+#image_23{
+height:80px;
+width:90px;
+margin-left:5px;
+background-image:url(../images/3.jpg);
+background-size:cover;
+float:left;
+border:3px solid lightgrey;
+border-radius:5px;
+}
+
+#last_left{
+margin-left:10px;
+}
+#pagination {
+  display: inline-block;
+float:left;
+}
+#last_left1{
+width:600px;
+float:left;
+margin-top:8px;
+}
+#pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+#pagination a:hover{
+background-color:green;
+}
+  .box {
+            width: 300px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f1f1f1;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            height:350px;
+        }
+        #login_name{
+            
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0;
+            margin-top:158px;
+        }
+        #login_pass{
+            
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0;
+            box-sizing: border-box;
+        }
+        #signin {
+            width: 100%;
+            padding: 10px;
+            background-color: green;
+            color: white;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+ #last{
+margin-top:7px;
+}
+#box #last #last1{
+width:50px;
+float:left;
+}
+#box #last #last2{
+float:right;
+}
+#submit_contact {
+            width: 35%;
+            padding: 10px;
+            background-color: green;
+            color: white;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+margin-top:23px;
+}
+

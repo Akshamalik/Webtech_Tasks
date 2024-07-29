@@ -1,0 +1,32 @@
+.mycard{
+    height: 470px;
+    border-radius: 30px;
+    transition: 0.3s ease;
+}
+
+.mycard img{
+    transform: rotate(-17deg);
+    transition: 0.3s ease;
+}
+
+.mycard:hover{
+    margin-top: -35px;
+}
+.mycard:hover img{
+    transform: rotate(0deg);
+    margin-top: -110px;
+}
+
+.mycard-footer{
+    bottom: 5%;
+    left: 5%;
+}
+.mycard-footer h5{
+    color:#503932 ;
+    font-weight: bold;
+}
+.mycard-footer span{
+    color: #503932;
+    font-size: 17px;
+    font-weight: 600;
+}

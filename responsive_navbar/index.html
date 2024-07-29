@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Responsive Navbar</title>
+</head>
+<body>
+  <header>
+    <div class="logo">Responsive Nav</div>
+    <div class="hamburger">
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+    </div>
+    <div class="nav-bar">
+      <ul>
+        <li><a href="#" class="active">Home</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Register</a></li>
+        <li><a href="#">Login</a></li>
+        <li><a href="#">Contact Us</a></li>
+      </ul>
+    </div>
+  </header>
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      var hamburger = document.querySelector(".hamburger");
+      var navBar = document.querySelector(".nav-bar");
+
+      hamburger.addEventListener("click", function() {
+        navBar.classList.toggle("active");
+      });
+    });
+  </script>
+</body>
+</html>

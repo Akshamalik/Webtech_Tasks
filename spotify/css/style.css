@@ -1,0 +1,241 @@
+#outer{
+width:1450px;
+height:630px;
+margin:0px auto;
+}
+body{
+background-color:black;
+color:white;
+}
+#first{
+width:370px;
+height:619px;
+float:left;
+}
+#first1{
+height:132px;
+background-color:#1D1D1Dff;
+width:370px;
+border-radius:15px;
+border:1px solid #1D1D1Dff;
+}
+.first11{
+height:38px;
+width:368px;
+display:flex;
+}
+.icon{
+margin-top:10px;
+height:40px;
+width:40px;
+}
+.name{
+margin-top:10px;
+height:40px;
+width:100px;
+}
+#lets{
+width:350px;
+margin:0px auto;
+background-color:#242424ff;
+border-radius:15px 15px 0px 0px;
+height:70px;
+margin-top:20px;
+border:1px solid #242424ff;
+}
+#first2{
+margin-top:10px;
+height:487px;
+background-color:#1D1D1Dff;
+width:368px;
+border:1px solid #1D1D1Dff;
+border-radius:15px;
+}
+#legal{
+display:flex;
+font-size:15px;
+}
+#englishplushglobe{
+margin-left:20px;
+margin-top:80px;
+background-color:#1D1D1Dff;
+width:110px;
+height:32px;
+border:1px solid white;
+display:flex;
+border-radius:15px;
+opacity:0.6;
+}
+.one{
+margin-left:28px;
+margin-top:20px;
+}
+#cookies{
+display:flex;
+font-size:15px;
+}
+#lib{
+width:368px;
+height:50px;
+margin-top:8px;
+display:flex;
+margin-left:20px;
+}
+#create{
+width:350px;
+margin:0px auto;
+height:120px;
+background-color:#242424ff;
+border-radius:20px;
+border:1px solid #242424ff;
+}
+#create_btn{
+padding:7px;
+padding-right:10px;
+border-radius:15px;
+font-weight:bold;
+width:130px;
+}
+#lib_icon{
+width:40px;
+height:45px;
+opacity:0.7;
+}
+#lib_name{
+width:250px;
+height:50px;
+margin-top:5px;
+font-size:18px;
+font-weight:bold;
+opacity:0.7;
+}
+#second {
+    width: 1030px;
+    height: 630px;
+    float: left;
+    margin-left: 10px;
+    padding: 0;
+}#nav {
+    width: 1030px;
+    height: 70px;
+    border-radius: 15px 15px 0px 0px;
+    background-color: #101010ff;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+#songs {
+    margin-top: 0;
+    width: 1069px;
+    border-radius: 0px 0px 15px 15px;
+    height: 560px;
+    background-color: #1D1D1Dff;
+    border:1px solid #1D1D1Dff;
+}
+#popular-artists{
+width:1030px;
+height:270px;
+}
+.artist-grid{
+width:1030px;
+height:250px;
+}
+.artist-card{
+width:140px;
+height:140px;
+}
+#signin{
+width:1450px;
+height:70px;
+background-color:blue;
+color:white;
+margin-top:15px;
+}
+#signin_one{
+width:1250px;
+height:70px;
+background-color:blue;
+}
+#signin_two{
+width:200px;
+height:70px;
+background-color:green;
+}
+#signin_down{
+margin-top:4px;
+margin-left:7px;
+font-size:25px;
+border:none;
+border-radius:30px;
+width:180px;
+height:60px;
+padding:5px;
+}
+#popular-songs{
+width:1030px;
+height:270px;
+}
+#nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+#nav-buttons .nav-btn {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+#auth-buttons button {
+    padding: 8px 16px;
+    border-radius: 20px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#signup-btn {
+    background-color: transparent;
+    color: #a7a7a7;
+}
+
+#login-btn {
+    background-color: white;
+    color: black;
+}
+.signup-banner {
+  margin-top:17px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background: linear-gradient(to right, #e561e5, #8862fb);
+  color: white;
+}
+
+.signup-content h3 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.signup-content p {
+  margin: 5px 0 0;
+  font-size: 14px;
+}
+
+.signup-button {
+  background-color: white;
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
