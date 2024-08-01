@@ -3,9 +3,15 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
     <title>Form</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
@@ -13,24 +19,37 @@
       <div id="box">
         <h1>Let's Connect</h1>
         <form action="">
-          
-          Name:
+          <div>
+            <i class="fa-solid fa-user" style="color: #be36f8;margin-right:8px;"></i>Name:
+          </div>
           <input type="text" id="name" />
 
-          Email:
+          <div>
+            <i class="fa-solid fa-envelope" style="color: #be36f8;margin-right:8px;"></i>Email:
+          </div>
           <input type="email" id="email" />
 
-          Password:
+          <div>
+            <i class="fa-solid fa-envelope" style="color: #be36f8;margin-right:8px;"></i>Password:
+          </div>
           <input type="password" id="password" />
-          <span id="passwordcheck" style="color: red;"></span>
+          <span id="passwordcheck" style="color: red"></span>
 
-          PIN Code:
+          <div>
+            <i class="fa-solid fa-house" style="color: #be36f8;margin-right:8px;"></i>PIN Code:
+          </div>
           <input type="text" id="pincode" />
 
-          Aadhar Card Number:
+          <div>
+            <i class="fa-solid fa-envelope-open-text" style="color: #be36f8;margin-right:8px;"></i
+            >Aadhar Card Number:
+          </div>
           <input type="text" id="aadhar" />
 
-          Mobile Number:
+          <div>
+            <i class="fa-solid fa-mobile" style="color: #be36f8;margin-right:8px;"></i>Mobile
+            Number:
+          </div>
           <input type="tel" id="mob" />
 
           <input type="button" value="Submit" onclick="ch()" />
