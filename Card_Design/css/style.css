@@ -51,8 +51,9 @@
   background-color: red;
 }
 .custom-caption {
-    top: 20%;
+    top: 16%;
     bottom: auto;
+    background: transparent;
   }
   
   .carousel-item img {
@@ -64,3 +65,93 @@
   /* .navbar {
     background-color: rgba(255, 255, 255, 0.8) !important;
   } */
+.navbar-brand,
+.navbar > .container .navbar-brand,
+.navbar > .container-fluid .navbar-brand {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.navbar-brand img {
+  display: block;
+}
+
+.navbar-brand {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.custom-caption h2{
+  font-size: 65px;
+}
+.custom-caption p{
+  font-size: 25px;
+}
+.carousel-caption {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 100%;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.first {
+  overflow-x: hidden;
+  height: 100vh;
+  width: 100%;
+  background-color: transparent; /* Changed from red to transparent */
+}
+
+.carousel-item img {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+}
+
+.carousel-caption {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 100%;
+  background-color: transparent; /* Removed background color */
+}
+
+.custom-caption {
+  background: transparent;
+}
+
+.custom-caption h2 {
+  font-size: 65px;
+  font-weight: bolder;
+}
+
+.custom-caption p {
+  font-size: 25px;
+}
+
+.navbar-brand,
+.navbar > .container .navbar-brand,
+.navbar > .container-fluid .navbar-brand {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.navbar-toggler {
+  border: none;
+}
+
+.navbar-toggler:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.close-icon {
+  font-size: 30px;
+  color: white;
+}
